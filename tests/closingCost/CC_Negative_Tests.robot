@@ -1,6 +1,6 @@
 *** Settings ***
 Resource      ${EXECDIR}/resources/test_data_manager/master.robot   
-Library           DataDriver    file=${CURDIR}/CC_Negative_TC.csv    
+Library           DataDriver    file=${CURDIR}/CC_Negative_TC.csv   #include=purchase, 
 Test Template    Validate ClosingCost Fee Negative TestCases 
 #Test Tags    negative_tests   
 

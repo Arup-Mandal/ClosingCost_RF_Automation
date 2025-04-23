@@ -1,0 +1,15 @@
+{
+    "contractId": "2345",
+    "pxObjClass": "HICV-Sales-CC-Int-Svc-CCRequest",
+    "purchasePrice": -119500,
+    "financedAmount": 149500,
+    "siteId": 9999,
+    "brand": "HICV",
+    "numberOfPurchasers": 6,
+    "cash": "30000",
+    "saleType": "sales refinance",
+    "points": 68000,
+    "roomType": "STANDARD",
+    "state": "NV",
+    "location": "DOUGLAS COUNTY (WALLY'S)"
+}

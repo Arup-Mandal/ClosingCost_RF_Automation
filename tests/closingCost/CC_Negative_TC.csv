@@ -1,2 +1,5 @@
 *** Test Cases ***;${fileName};${expected_responseCode};${expected_response_msg};[Tags];[Documentation]
 Negative_TC_001;CC_request_1.json;400;{"error":[{"code":"PEGA-CC-013","description":"Financed Amount cannot be negative"}]};smoke;Test case for negative financed amt
+Negative_TC_002;CC_request_2.json;400;{"error":[{"code":"PEGA-CC-004","description":"Purchase Price cannot be negative"}]};purchase;Test case for negative purchase Price
+Negative_TC_003;CC_request_3.json;400;{"error":[{"code":"PEGA-CC-016","description":"Number of Purchasers cannot be negative"}]};numberOfPurchasers;Test case for negative number of Purchasers
+Negative_TC_004;CC_request_4.json;400;{"error":[{"code":"PEGA-CC-009","description":Site Id cannot be empty"}]};nositeId;Test case for empty Site Id
